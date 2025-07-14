@@ -5,11 +5,11 @@ import pickle
 from datetime import datetime, timedelta
 
 # Load your trained model
-with open("C:\Users\rudra\Desktop\Intel Backup\model.pkl", 'rb') as f:
+with open(r"C:\Users\rudra\Desktop\Intel Backup\model.pkl", 'rb') as f:
     model = pickle.load(f)
 
 # Load your dataset to get options for filters
-data = pd.read_csv("C:\Users\rudra\Desktop\Intel Backup\dairy_dataset.csv")
+data = pd.read_csv(r"C:\Users\rudra\Desktop\Intel Backup\dairy_dataset.csv")
 
 st.set_page_config(page_title="Sales Prediction App", layout="wide")
 
