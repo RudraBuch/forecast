@@ -5,7 +5,7 @@ import pickle
 from datetime import datetime, timedelta
 
 # Load your trained model
-with open('/mnt/data/model.pkl', 'rb') as f:
+with open("C:\Users\rudra\Desktop\Intel Backup\model.pkl", 'rb') as f:
     model = pickle.load(f)
 
 # Load your dataset to get options for filters
