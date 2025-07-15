@@ -524,6 +524,7 @@ def create_visualization(predictions_df, metric_col):
         
         return fig
 
+'''
 def generate_pdf_report(predictions_df, metrics, params):
     """Generate a comprehensive PDF report"""
     from io import BytesIO
@@ -571,3 +572,4 @@ def generate_pdf_report(predictions_df, metrics, params):
 • Demand Stability: {'High Stability' if metrics['volatility'] < 20 else 'Medium Stability' if metrics['volatility'] < 50 else 'Low Stability'}
 • Inventory Strategy: {'Increase stock levels' if metrics['growth_rate'] > 5 else 'Maintain current levels' if metrics['growth_rate'] > -5 else 'Consider stock reduction'}
 • Risk Assessment: {'Low Risk' if metrics['volatility'] < 20 else 'Medium Risk' if metrics['volatility
+'''
